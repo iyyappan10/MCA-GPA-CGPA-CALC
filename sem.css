@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+
+body {
+    background-color: #000;
+    margin: auto;
+}
+
+input::placeholder {
+    font-weight: bold;
+    color: black;
+}
+
+
+.calculator-box {
+    border-color: rgb(0, 0, 0);
+    margin: 16auto;
+    border: 150px;
+    box-sizing: content-box;
+
+
+    /*  text-align: center; */
+}
+
+
+h1 {
+    text-align: center;
+    background-color: #020006;
+}
+
+.tbl {
+    text-align: center;
+}
+
+
+p {
+    color: black;
+    text-align: center;
+}
+
+
+
+#course-wrapper {
+    color: black;
+    background-color: yellow;
+
+    margin: 0 20%;
+    text-align: center;
+}
+
+.sub-wrap {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: center;
+    /* max-width: ; */
+}
+
+.name,
+.subject-code {
+    width: 10%;
+    min-width: 70px;
+}
+
+input {
+    border: none;
+    margin: 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.credit-units,
+.number {
+    width: 15%;
+    min-width: 80px;
+}
+
+select {
+    border: none;
+    font-weight: bold;
+    color: #000;
+    border-radius: 7.5px;
+    /*   height: 30px; */
+}
+
+button {
+    margin: 0 auto;
+    /*   margin-left: 10px; */
+    border-width: 1px;
+    border-radius: 2px;
+    border-style: solid;
+    padding: 5px;
+    margin: 15px 0;
+}
+
+
+.btn {
+    display: list-item;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.lastp p {
+    color: blue;
+    background-color: yellow;
+    text-align: center;
+    font-weight: bolder;
+}

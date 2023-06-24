@@ -1,0 +1,93 @@
+body {
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 15px;
+    background: rgb(224, 247, 55);
+    background: linear-gradient(90deg, rgb(227, 231, 23), rgb(227, 231, 23), rgb(60, 199, 90) 100%);
+
+
+}
+
+.semresult {
+    margin-top: 30px;
+    width: 550px;
+    height: 750px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.212);
+
+    font-weight: 700;
+
+}
+
+.semno {
+    font-size: 30px;
+}
+
+#sema,
+#semb,
+#semc,
+#semd,
+#seme,
+#semf,
+#semg,
+#semh {
+    padding: 5px;
+
+    margin: 25px;
+}
+
+.CalCulate {
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: rgba(255, 255, 0);
+    margin-top: 45px;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 5px 5px 5px black;
+    text-transform: uppercase;
+}
+
+.cal {
+    padding: 15px;
+}
+
+.sem {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    font-weight: 700;
+    width: 180px;
+
+}
+
+.nofsem {
+    font-size: 20px;
+
+
+}
+
+#numberofsem {
+    width: 22px;
+    border: none;
+    background: transparent;
+}
+
+.semresult:hover {
+    box-shadow: 5px 5px 5px black;
+}
+
+.CalCulate:hover {
+    background-image: linear-gradient(90deg, rgba(224, 247, 55, 0.984) 0%, rgb(254, 255, 68) 35%, rgb(133, 240, 49) 64%, rgb(0, 212, 255) 100%);
+    transition: all 150ms ease-in-out 0s;
+    opacity: 1;
+    transform: translateY(0);
+    cursor: pointer;
+    box-shadow: 5px 5px 15px black;
+}

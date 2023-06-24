@@ -1,0 +1,123 @@
+body {
+    text-align: center;
+
+    background: rgb(224, 247, 55);
+    background: linear-gradient(90deg, rgba(224, 247, 55, 0.9839286056219363) 0%,
+            rgba(254, 255, 68, 1) 35%, rgb(190, 204, 179) 64%, rgba(0, 212, 255, 1) 100%);
+}
+
+.maindiv {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+
+}
+
+p {
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: .1cm;
+    text-shadow: 2px 2px 3px black;
+    text-transform: capitalize;
+}
+
+.rsultdiv {
+    margin-top: 30px;
+
+    font-size: large;
+    background-color: rgba(27, 13, 49, 0.219);
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: .1cm;
+    width: 650px;
+    height: 300px;
+    border-radius: 10px;
+    animation: boxshadow 2s ease infinite;
+
+
+}
+
+.Developer {
+    margin-top: 350px;
+    font-size: large;
+    background-color: rgba(27, 13, 49, 0.219);
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: .1cm;
+    width: 450px;
+    height: 240px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+
+
+}
+
+#linkedin {
+    color: blue;
+    animation: zoom 1s ease;
+
+
+
+
+
+
+
+}
+
+#github {
+    color: black;
+}
+
+#linkedin:hover {
+    display: inline-block;
+    vertical-align: middle;
+    color: black;
+    transform: scale(1.5);
+    transform: perspective(10px) translateZ(1);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+#github:hover {
+    display: inline-block;
+    vertical-align: middle;
+    color: red;
+    transform: scale(1.5);
+    transform: perspective(10px) translateZ(1);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+}
+
+
+@keyframes zoom {
+    50% {
+        transform: scale(1.2);
+        color: black;
+
+    }
+
+    70% {
+        color: red;
+    }
+
+}
+
+
+
+
+
+
+@keyframes boxshadow {
+
+
+    50% {
+        box-shadow: 5px 5px 15px black;
+    }
+}
